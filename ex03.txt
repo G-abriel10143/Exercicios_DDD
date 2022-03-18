@@ -1,0 +1,27 @@
+package entrada_processamento_saida;
+
+import java.util.Scanner;
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+	Double a, b, c,  soma;
+	
+	System.out.printf("digite a base de um triangulo:");
+	a = ler.nextDouble();
+			
+			System.out.printf("digite a altura de um triangulo:");
+	b = ler.nextDouble();
+	
+		System.out.printf("divida por :");
+	c = ler.nextDouble();
+	
+	soma = a * b / c;
+	
+	System.out.printf("A área do triangulo é: = %.2f", a , b , soma);
+	
+	}
+	
+}
