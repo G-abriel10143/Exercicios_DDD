@@ -1,0 +1,20 @@
+package entrada_processamento_saida;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		double a;
+		double fahrenheit;
+		
+		System.out.printf("Digite o grau celsius: ");
+		a = ler.nextDouble();
+		
+		fahrenheit = (a - 32) / 1.8;
+		
+		System.out.printf("O resultado é: %f", fahrenheit);
+	}
+}
