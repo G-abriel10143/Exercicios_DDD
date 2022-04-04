@@ -8,7 +8,7 @@ public class Ex16 {
 		Scanner sc = new Scanner(System.in);
 		double lado2, lado3, hipotenusa;
 		
-		System.out.println(" ===E um triangulo  retangulo=== ? ");
+		System.out.println(" E um triangulo  retangulo ? ");
 		
 		System.out.println("Digite o maior lado: ");
 		hipotenusa = sc.nextDouble();
