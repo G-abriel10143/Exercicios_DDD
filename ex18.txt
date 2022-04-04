@@ -8,7 +8,7 @@ public class Ex18 {
 		Scanner sc = new Scanner(System.in);
 		double aceleracao, velocidadeInicial, tempoPercurso, calc;
 		
-		System.out.println("===Qual a velocidade final desse automovel?");
+		System.out.println("Qual a velocidade final desse automovel?");
 		
 		System.out.println("Digite a aceleração em m/s: ");
 		aceleracao = sc.nextDouble();
