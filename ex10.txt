@@ -9,7 +9,7 @@ public class Ex10 {
 		Scanner sc = new Scanner(System.in);
 		double n1, n2;
 		
-		System.out.println("=== Qual o maior numero ===");
+		System.out.println(" Qual o maior numero =");
 		
 		System.out.println("Digite o primeiro valor: ");
 			n1 = sc.nextDouble();
@@ -18,11 +18,11 @@ public class Ex10 {
 			n2 = sc.nextDouble();
 			
 		if(n1 > n2) {
-			System.out.printf("%.1f é o maior número!", n1);
+			System.out.printf("%.1f Ã© o maior nÃºmero!", n1);
 		} else if (n1 == n2) {
-			System.out.println("Os números são iguais!");
+			System.out.println("Os nÃºmeros sÃ£o iguais!");
 		} else {
-			System.out.printf("%.1f é o maior número", n2);
+			System.out.printf("%.1f Ã© o maior nÃºmero", n2);
 		}
 		sc.close();
 	}
