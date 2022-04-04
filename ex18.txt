@@ -8,9 +8,9 @@ public class Ex18 {
 		Scanner sc = new Scanner(System.in);
 		double aceleracao, velocidadeInicial, tempoPercurso, calc;
 		
-		System.out.println("Qual a velocidade final desse automovel?");
+		System.out.println("===Qual a velocidade final desse automovel?");
 		
-		System.out.println("Digite a aceleraÁ„o em m/s: ");
+		System.out.println("Digite a acelera√ß√£o em m/s: ");
 		aceleracao = sc.nextDouble();
 		System.out.println("Digite a velocidade inical em m/s: ");
 		velocidadeInicial = sc.nextDouble();
@@ -20,17 +20,17 @@ public class Ex18 {
 		calc = (velocidadeInicial + aceleracao * tempoPercurso) * 3.6;
 		
 		  if(calc <= 40) {
-			System.out.printf("%.2f Km/h veÌculo muito lento!", calc);
+			System.out.printf("%.2f Km/h ve√≠culo muito lento!", calc);
 		} else if (calc > 40 && calc <= 60) {
 			System.out.printf("%.2f Km/h velocidade permitida!", calc);
 		} else if(calc > 60 && calc <= 80) {
 			System.out.printf("%.2f Km/h velocidade de cruzeiro!", calc);
 		} else if(calc > 80 && calc <= 120) {
-			System.out.printf("%.2f Km/h veÌculo r·pido!", calc);
+			System.out.printf("%.2f Km/h ve√≠culo r√°pido!", calc);
 		} else if(calc > 120 ) {
-			System.out.printf("%.2f Km/h veÌculo muito r·pido!", calc);
+			System.out.printf("%.2f Km/h ve√≠culo muito r√°pido!", calc);
 		} else {
-			System.out.println("Valor inv·lido!");
+			System.out.println("Valor inv√°lido!");
 		}
 		
 		sc.close();
