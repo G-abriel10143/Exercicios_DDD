@@ -8,7 +8,7 @@ public class Ex11 {
 		Scanner sc = new Scanner(System.in);
 		double base, altura, area;
 		
-		System.out.println(" ===Area do retangulo=== "); 
+		System.out.println("Area do retangulo "); 
 		System.out.println("Digite a base: ");
 		base = sc.nextDouble();
 		System.out.println("Digite a altura: ");
