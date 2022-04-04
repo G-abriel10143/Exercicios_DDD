@@ -8,7 +8,7 @@ public class Ex13 {
 		Scanner sc = new Scanner(System.in);
 		double n1, n2, n3;
 		
-		System.out.println("===Qual destes é maior");
+		System.out.println("Qual destes é maior");
 		
 		System.out.println("Digite o primeiro valor: ");
 		n1 = sc.nextDouble();
