@@ -1,32 +1,29 @@
-package estrutura_decisao;
+package entrada_processamento_saida;
 
 import java.util.Scanner;
 
-public class Ex13 {
+public class Ex12 {
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		double n1, n2, n3;
+		public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
 		
-		System.out.println("===Qual destes é maior");
+		int a, b, area;
 		
-		System.out.println("Digite o primeiro valor: ");
-		n1 = sc.nextDouble();
-		System.out.println("Digite o segundo valor: ");
-		n2 = sc.nextDouble();
-		System.out.println("Digite o terceiro valor: ");
-		n3 = sc.nextDouble();
 		
-		if(n1 > n2) {
-			if(n1> n3) {
-				System.out.printf("%.2f é o maior", n1);
-			}
-		} else if (n2 > n3) {
-			System.out.printf("%.2f é o maior", n2);
-		} else {
-			System.out.printf("%.2f é o maior", n3);
+		System.out.printf("Digite a base do retângulo: ");
+		a = ler.nextInt();
+		
+		System.out.printf("Digite a altura do retângulo: ");
+		b = ler.nextInt();
+		
+		area = a * b;
+		
+		if (area > 100) 
+		System.out.printf("Terreno grande");
+		else
+		System.out.printf("Terreno pequeno");
+	
+
+		
 		}
-		sc.close();
-	}
-
 }
